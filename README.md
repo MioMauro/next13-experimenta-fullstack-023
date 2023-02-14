@@ -1,3 +1,27 @@
+npx create-next-app@latest --experimental-app
+
+tutorial from youTube: https://www.youtube.com/watch?v=T63nY70eZF0
+
+npm install -D tailwindcss postcss autoprefixer
+
+npx tailwindcss init -p
+
+API from: https://www.themoviedb.org/
+
+---
+For <Image/> outside app need setUp next.config.js:
+
+images: {domains: ['image.tmdb.org'],},
+---
+
+---
+Add grid template in tailwind.config.js:
+
+gridTemplateColumns: {
+        fluid: "repeat(auto-fit,minmax(15rem,1fr))",
+      },
+---
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
